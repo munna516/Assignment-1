@@ -21,7 +21,6 @@ body {
 section {
     max-width: 1140px;
     margin: 0 auto;
-    margin-bottom: 25px;
 }
 
 .title-description {
@@ -118,17 +117,25 @@ section {
 }
 
 /* Why Web Development Section */
+#web-development-section-container {
+    margin-top: 150px;
+}
+
 .web-development-content {
     display: flex;
     justify-content: space-between;
-    /* align-items: center; */
     margin-top: 0px;
     padding: 80px;
+    width: 946px;
+    height: 200px;
+    margin-bottom: 20px;
+    /* border: 2px solid red; */
 }
 
 .web-development-content .content {
     width: 477px;
     height: 219px;
+
 }
 
 .web-development-content .different-content {
@@ -182,6 +189,10 @@ section {
 }
 
 /* My inspiration Section */
+#my-inspiration-container {
+    margin-top: 150px;
+}
+
 .iframe-container {
     border: 1px solid rgba(13, 19, 33, 0.2);
     max-width: 1140px;
@@ -201,6 +212,10 @@ iframe {
 }
 
 /* My Target Section */
+#my-target-container {
+    margin-top: 150px;
+}
+
 .current-target-container {
     display: flex;
     justify-content: space-between;
