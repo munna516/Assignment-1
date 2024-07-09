@@ -174,3 +174,22 @@ section {
     cursor: pointer;
     background-color: rgba(128, 128, 128, 0.425);
 }
+
+/* My inspiration Section */
+.iframe-container {
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    max-width: 1140px;
+    height: 615px;
+    border-radius: 16px;
+    padding: 0px;
+    margin-top: 30px;
+}
+
+iframe {
+    width: 1050px;
+    height: 550px;
+    margin-top: 35px;
+    margin-left: 40px;
+    border-radius: 16px;
+
+}
